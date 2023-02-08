@@ -1,0 +1,83 @@
+/*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}*/
+
+.home-container{
+  height:100%;
+  width:100%;
+  background-image:url("E:\Login React\public\background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-navbar{
+  width:88;
+  margin:auto;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.home-logo{
+  width:140px;
+  cursor:pointer;
+
+}
+.home-navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;;
+}
+.home-navbar ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 25px;
+}
+
+.home-hits{
+  margin-left: 120px;
+  margin-top: 20px;
+  font-size: large;
+  color: white;
+}
+.home-hit1{
+  margin-left: 60px;
+  cursor: pointer;
+}
+.home-hit2{
+  margin-left: 70px;
+  cursor: pointer;
+}
+.home-hit3{
+  margin-left: 80px;
+  cursor: pointer;
+}
+.home-hit4{
+  margin-left: 90px;
+  cursor: pointer;
+}
+.home-artists{
+  margin-left: 120px;
+  margin-top: 90px;
+  font-size: large;
+  color: white;
+}
+.home-art1{
+  margin-left: 60px;
+  cursor: pointer;
+}
+.home-art2{
+  margin-left: 70px;
+  cursor: pointer;
+}
+.home-art3{
+  margin-left: 80px;
+  cursor: pointer;
+}
+.home-art4{
+  margin-left: 90px;
+  cursor: pointer;
+}

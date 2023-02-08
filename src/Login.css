@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Khula:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap');
+/*{
+    font-family : 'Khula', sans-serif;
+    font-family:'poppins'sans-serif
+}*/
+
+
+.main-login{
+    min-height:100vh;
+    min-width:100vh;
+    overflow-x:hidden;
+    background-image: url("E:\Login React\src\Img\th (6).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}  
+    .login-contain{
+        height: 75vh;
+    width:70%;
+    background:rgb(1, 1, 1);
+    border-radius: 1rem;
+    margin:100px;
+    margin-left:  250px;;
+    position: fixed;
+    box-shadow:0.5rem 0.5rem 6rem 2rem -1rem rgb(58,57,57);
+    display:flex;
+    justify-content: right;
+    align-items: center ;
+    filter:blur(0.004rem);
+    
+}
+
+    .left-side-login{
+        margin:0%;
+        margin-right: 0px;
+       border-radius: 1rem;
+        box-shadow:0.5rem 0.5rem 2rem -1rem rgba(15, 234, 172, 0.377);
+        height:100%;
+        width:70%;
+        background:linear-gradient(to bottom left,rgba(44, 234, 209, 0.975),hsl(160, 6%, 81%)50%)
+    
+    }
+    #input-login{
+        display:block;
+        border: none;
+        height: 30px;
+        margin-top: 20px;
+        width:80%;
+        margin-left: 50px;
+        margin-bottom:1.3rem;
+        /*padding: 0.5rem 0.7rem;*/
+        border-radius: 1.4rem;
+        color:rgb(10, 10, 10);
+        font-size: 15px;
+        
+    }
+    
+    #label-login{
+        display:block;
+        margin: auto;
+        margin-top:30px;
+        text-align: left;
+        width:60%;
+        font-size:large;
+        margin-left: 55px;
+        color:rgb(17, 16, 16); 
+       
+    }
+    .button-login{
+        
+        position:relative;
+        left: 140px;
+        width:34%;
+        border-radius: 2.4rem;
+        padding:8px;
+        font-size:17px;
+        background-color:hwb(170 14% 13%);
+        border-color:  hwb(178 20% 9%);
+        box-shadow: 0 5px 2px 0 rgba(0,0,0,0.2), 0 00.7px 10px 0 rgba(0,0,0,0.19);
+    }
+    .button-login:hover{
+        background-color:hwb(172 30% 17%); 
+        color: white;
+    }
+    .button-login:active{
+        background-color: rgb(47, 222, 193);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+   /*.line{
+        border-Top: "2px solid gray ";
+        margin-Left: 20;
+        margin-Right: 20;
+   }*/
+    .s-login{
+        text-align: left;
+        width:70%;
+        color:rgb(11, 11, 11); 
+        position:relative;
+        bottom:-20px;
+        right:-90px;
+       font-size: 1.5rem;
+       margin-left: 15px;
+       font-style: 'poppins'sans-serif;
+    }
+    .x-login{
+        text-align: left;
+        width:70%;
+        color:rgb(52, 48, 48); 
+        position:relative;
+        bottom:-15px;
+        right:-96px;
+       font-size: 1.2rem;
+       margin-left: 10px;
+       font-style: 'poppins'sans-serif;
+    }
+    .btn-login{
+        position:relative;
+        left: 110px;
+        width:50%;
+        bottom:-35px;
+        border-radius: 1.7rem;
+        padding:5px;
+        font-size:17px;
+        background-color:hwb(170 2% 4%);
+        border-color:  hwb(171 2% 8%);
+        box-shadow: 0 5px 2px 0 rgba(0,0,0,0.2), 0 00.7px 10px 0 rgba(0,0,0,0.19);
+    }
+    .btn-login:hover{
+        background-color:hwb(164 29% 10%); 
+        color: white;
+    }
+    .btn-login:active{
+        background-color: rgb(99, 217, 207);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .a-login{
+        text-align: left;
+        width:0%;
+        left:-60px;
+        padding-left: -80px;
+        color:rgb(64, 62, 62); 
+        position:relative;
+        bottom:130px;
+        right:-150px;
+        margin-left: 30px;
+        font-size: 1.4rem;
+       font-style: 'poppins'sans-serif;
+    }
+   .image-login{
+     width:500px;
+     padding-top: -700px;
+     bottom:170px;
+     size: 200rem;
+     margin-left: 100px;
+   } 
+   .forget-login{
+    margin-left: 160px;
+    bottom:150px;
+    color: rgb(42, 45, 43);
+   }
+    .hbutton-login{
+        
+        position:relative;
+        left: 145px;
+        width:34%;
+        border-radius: 2.4rem;
+        padding:8px;
+        font-size:17px;
+        background-color:hwb(170 14% 13%);
+        border-color:  hwb(178 20% 9%);
+        box-shadow: 0 5px 2px 0 rgba(0,0,0,0.2), 0 00.7px 10px 0 rgba(0,0,0,0.19);
+    }

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.create-body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(to bottom right,hsl(356, 64%, 78%),hsl(355, 52%, 96%));
+  font-family: "lato", sans-serif;
+  background-image: url("E:\Login React\public\crtbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.create-signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.create-form {
+  background-color: rgba(253, 249, 249, 0.966);
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  margin-left: -430px;
+  box-shadow: 0 10px 25px rgba(90, 84, 83, 0.2);
+  height: 75%;
+}
+
+.create-title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-left: 21px;
+}
+
+.create-inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.create-input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #1d9e9a;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 5px 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+
+.create-label {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: rgb(247, 247, 247);
+  color: #0b7a59;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.create-button {
+  display: block;
+  margin-left: -290px;
+  margin-right: 400px;
+  padding: 5px 30px;
+  border: none;
+  background-color: #11f4c6;
+  color: rgba(0, 0, 0, 0.993);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 450px;
+  height: 45px;
+}
+
+.create-button:hover {
+  background-color: #ada3a3;
+  transform: translateY(-2px);
+}
+.create-input:focus + .create-label {
+  top: -1px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d2a2a;
+}
+
+.create-input:not(:placeholder-shown)+ .create-label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.create-input:focus {
+  border: 2px solid #524b4b;
+}
